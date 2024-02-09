@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+
+        let num = parseInt(prompt("Enter Number"))
+        function test() {
+            let ans = (num > 0)?"Number Is Postive":(num == 0)?"Number is Neutral": "Number is Negative"
+            console.log(ans);
+
+        }
+        test();
+
+        //   ------------------------ 02 -----------------------
+
+        let number = parseInt(prompt("Enter Number"))
+        console.log(number);
+
+        function num(number) {
+            if (number > 0) {
+                console.log("Number is Postive");
+            }
+            else if (number === 0) {
+                console.log("Number Is Neutral ");
+            }
+            else {
+                console.log("Number Is Negative");
+            }
+        }
+        num(number)
+
+        //  ------------------------ 03 -----------------------
+
+        let a = parseInt(prompt("Enter Value A"))
+        console.log("A = ", a);
+
+        let b = parseInt(prompt("Enter Value B"))
+        console.log("B = ", b);
+
+        let c = parseInt(prompt("Enter Value C"))
+        console.log("C = ", c);
+
+        let d = parseInt(prompt("Enter Value D"))
+        console.log("D = ", d);
+
+        function Maximum() {
+
+            if (a > b) {
+                if (a > c) {
+                    if (a > d) {
+
+                        console.log("A IS Maximum");
+
+                    }
+                    else {
+
+                        console.log("D Is Maximum");
+
+                    }
+
+                }
+                else {
+
+                    if (c > d) {
+
+                        console.log("C Is Maximum");
+
+                    }
+                    else {
+
+                        console.log("D Is Maximum");
+
+                    }
+
+                }
+
+            }
+            else {
+
+                if (b > c) {
+
+                    if (b > d) {
+
+                        console.log("B IS Maximum");
+
+                    }
+                    else {
+
+                        console.log("D Is Maximum");
+
+                    }
+
+                }
+                else {
+
+                    if (c > d) {
+
+                        console.log("C Is Maximum");
+
+                    }
+                    else {
+
+                        console.log("D Is Maximum");
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        Maximum()
+
+
+
+        // //---------------- 04   ----------------
+
+
+        // let a = parseInt(prompt("Enter Value A"))
+        // console.log("A = ", a);
+
+        // let b = parseInt(prompt("Enter Value B"))
+        // console.log("B = ", b);
+
+        // let c = parseInt(prompt("Enter Value C"))
+        // console.log("C = ", c);
+
+        // let d = parseInt(prompt("Enter Value D"))
+        // console.log("D = ", d);
+
+        // function maximum(a,b,c,d) {
+
+        //     if(a>b && a>c && a>d){
+
+        //         console.log("A Is Maximum");
+
+        //     }
+        //     else if(b>c && b>d){
+
+        //         console.log("B Is Maximum");
+
+        //     }
+        //     else if(c>d){
+
+        //         console.log("C Is Maximum");
+
+        //     }
+        //     else{
+
+        //         console.log("D Is Maximum");
+
+        //     }
+
+        // }
+
+        // maximum(a,b,c,d)
+
+
+
+        // //---------------- 05  -------------------
+
+        // let a = parseInt(prompt("Enter Value A"))
+        // let b = parseInt(prompt("Enter Value B"))
+
+        // function Calculation() {
+
+        //     console.log("Addition = ", a + b);
+
+        //     console.log("Subtraction = ", a - b);
+
+        //     console.log("Multiplication = ", a * b);
+
+        //     console.log("Division = ", a / b);
+
+        // }
+
+        // Calculation()
+
+
+
+        // //---------------- 06   ----------------
+
+
+        // let a = parseInt(prompt("Enter Value A"))
+        // console.log("A = ", a);
+
+        // let b = parseInt(prompt("Enter Value B"))
+        // console.log("B = ", b);
+
+        // function Swap() {
+
+        //     a = a + b
+        //     b = a - b
+        //     a = a - b
+
+        //     console.log("After swapping");
+
+        //     console.log("A = ", a);
+        //     console.log("B = ", b);
+
+        // }
+
+        // Swap()
+
+
+
+        // //---------------- 07   ----------------
+
+
+        // let a = parseInt(prompt("Enter Value A"))
+        // console.log("A = ", a);
+
+        // let b = parseInt(prompt("Enter Value B"))
+        // console.log("B = ", b);
+
+        // let c = parseInt(prompt("Enter Value C"))
+        // console.log("C = ", c);
+
+        // function greter(a,b,c) {
+
+        //     if (a > b) {
+
+        //         if (a > c) {
+
+        //             console.log("A Is Maximum");
+        //         }
+        //         else {
+
+        //             console.log("C Is Maximum");
+        //         }
+        //     }
+        //     else {
+
+        //         if (b > c) {
+
+        //             console.log("B Is Maximum");
+        //         }
+        //         else {
+
+        //             console.log("C Is Maximum");
+        //         }
+        //     }
+        // }
+
+        // greter(a,b,c)
+
+         // //---------------- 08  ------------------
+
+
+        // let a = parseInt(prompt("Enter Value A"))
+        // console.log("A = ", a);
+
+        // let b = parseInt(prompt("Enter Value A"))
+        // console.log("B = ", b);
+
+        // let choise = prompt("Select Your Choise + , - , / , *")
+
+        // function calc(a,b) {
+
+        //     switch (choise) {
+
+        //         case "+":
+        //             console.log("Addition = ", a + b);
+        //             break;
+        //         case "-":
+        //             console.log("Subtraction = ", a - b);
+        //             break;
+        //         case "/":
+        //             console.log("Division = ", a / b);
+        //             break;
+        //         case "*":
+        //             console.log("Multiplication = ", a * b);
+        //             break;
+        //     }
+        // }
+
+        // calc(a,b)
+
+
+        // //---------------- 09   ------------------
+
+
+        // let a = parseInt(prompt("Enter Value A"))
+        // console.log("Angle 1 = ", a);
+
+        // let b = parseInt(prompt("Enter Value A"))
+        // console.log("Angle 2 = ", b);
+
+        // let c = parseInt(prompt("Enter Value A"))
+        // console.log("Angle 3 = ", c);
+
+        // function Triangle() {
+
+        //     let tria = a + b + c
+        //     console.log("Sum of All Angle = ", tria);
+
+        //     if (tria === 180 && a != 0 && b != 0 && c != 0) {
+
+        //         console.log("Triangle Is Valid");
+
+        //     }
+        //     else {
+
+        //         console.log("Triangle Is Not Valid");
+        //     }
+        // }
+
+        // Triangle()
+
+
+
+        // //---------------- 10  ----------------
+
+
+        // let age = parseInt(prompt("Enter Your Age"))
+        // console.log("Age = ",age);
+
+        // function voting(age){
+
+        //     if(age>=18){
+
+        //         console.log("You Are Eligible For Voting");
+        //     }
+        //     else{
+
+        //         console.log("You Are Not Eligible For Voting");
+        //     }
+        // }
+
+        // voting(age)
+
+
+    </script>
+</body>
+
+</html>
